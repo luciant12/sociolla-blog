@@ -1,0 +1,39 @@
+Questions:
+1. How to secure form submission?
+2. How would you optimize a website's assets/resources?
+3. What UI, Security, Performance, SEO, Maintainability or Technology considerations
+do you make while building a web application or site?
+4. What do you know about design pattern?
+5. What are HTTP methods? List all HTTP methods that you know, and explain them.
+6. Database: What is the difference between a View and a Table?
+7. What's Two Factor Authentication? How would you implement it in an existing web
+application?
+
+
+
+Answer
+1.Membuat validasi data hasil dari form submission di backend, karena frontend datanya dapat di edit oleh user.
+
+2.Membuat folder sesuai dengan tipe filenya
+
+3.UI: Saya suka UI minimal yang hanya berisi apa yang seharusnya. Saya yakin ini menghasilkan pengalaman pengguna yang lebih baik,dan lebih cepat untuk load data dari servernya
+Keamanan: Saya selalu mencoba membuat frontend dan backend aman menggunakan login password yang di encrypt
+Kinerja: Mempertimbangkan kinerja dari applikasi yang di buat, agar lebih cepat berjalan
+SEO: menerapkan meta tag pada head html dan menggunakan isi content yang mudah di olah oleh google
+Maintainability: Menggunakan framework / code yang stabil dan dapat berlanjut tidak oleh saya sendiri, dan bisa di teruskan oleh orang lain
+Teknologi: Saya suka mempelajari teknologi baru, tetapi jika proyek tersebut dalam produksi, saya akan menggunakan yang saya ketahui terlebih dahulu daripada menebak tanpa arah
+
+4.Solusi umum untuk masalah yang terjadi saat pengembangan software dan dapat membantu membuat sebuah project menjadi tertata rapi secara struktural
+
+5.GET  	: Sebuah method yang di gunakan pada html yang berfungsi untuk menerima data/resource 
+POST 	: Sebuah method yang di gunakan pada html yang berfungsi untuk mengirim data/resource
+HEAD 	: Sama seperti get tapi hanya mereturn http header dan tidak ada document body
+PUT	 	: Upload URI tertentu
+DELETE	: Delete Resource tertentu
+OPTIONS	: Return method http yang di support server
+CONNECT	: Convert request connection menjadi TCP/IP tunnel
+
+6.Table itu menyimpan data,nama coloumn dan tipe datanya, sedangkan view itu dia mengambil data dari table, bisa lebih dari satu table dan menampilkannya
+
+7.2 lapis authentication, biasanya untuk login atau melihat data tetentu layer 1 biasanya terdiri dari username dan password, layer 2 bisa bermacam-macam, ada dengan menggunakan 
+captha atau menggunakan kode yang di kirim ke handphone
