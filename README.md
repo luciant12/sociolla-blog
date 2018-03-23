@@ -1,2 +1,0 @@
-# sociolla-blog
-Blog Sociolla
